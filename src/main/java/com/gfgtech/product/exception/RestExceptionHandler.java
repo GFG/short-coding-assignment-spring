@@ -1,4 +1,4 @@
-package com.gfgtech.product;
+package com.gfgtech.product.exception;
 
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.http.ResponseEntity;
