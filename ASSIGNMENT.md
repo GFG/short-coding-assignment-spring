@@ -18,7 +18,7 @@ The following business logic should be implemented:
 
 2. Validations for price update:
     a. Price cannot be negative or zero
-    b. If price is decreased, verify that it is not lower than half of the current price.
+    b. If price is decreased, verify that it is not lower than half of the current price. If it is, send an appropriate error message to the client.
 
 3. The service should be idempotent, for example: when an update request is made with is no change to any fields, email notification **_SHOULD NOT_** be sent.
 
