@@ -20,7 +20,7 @@ The following business logic should be implemented:
     a. Price cannot be negative or zero
     b. If price is decreased, verify that it is not lower than half of the current price. If it is, send an appropriate error message to the client.
 
-3. The service should be idempotent, for example: when an update request is made with is no change to any fields, email notification **_SHOULD NOT_** be sent.
+3. The service should be idempotent, for example: when an update request is made with is no change to any fields, email notification SHOULD NOT be sent.
 
 4. If price is changed send an email also to admin@marketplace.com in addition to the seller email in step 1 (seller@marketplace.com)
 
