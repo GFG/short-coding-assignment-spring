@@ -1,7 +1,7 @@
 ## Local Setup
 
 Clone and open the project in your IDE.
-Run the main class [ProductServiceApplication](src/main/java/com/gfgtech/ProductApplication.java) as spring boot application.
+Run the main class [ProductApplication](src/main/java/com/gfgtech/ProductApplication.java) as spring boot application.
 On startup spring boot will read the [data.sql](src/main/resources/data.sql) file and execute the contents.
 
 The Product Service is now ready to receive API requests.
