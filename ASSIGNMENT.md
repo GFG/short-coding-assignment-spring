@@ -24,7 +24,7 @@ The following business logic should be implemented:
 
 4. If price is changed send an email also to admin@marketplace.com in addition to the seller email in step 1 (seller@marketplace.com)
 
-5. The new business logic should be covered with Unit tests.
+5. The new business logic should be covered with tests.
 </pre>
 
 > There is no need to send a REAL email. Simply print the body of the email in the logs.
@@ -37,7 +37,7 @@ This completes the assignment.
 **_IMPORTANT_** : Don't apply any changes to this repository.
 
 Give repository access to the person/s from our organization that you should have been indicated by now. 
-Ask the Hiring Manager if you did not get them yet. (_Currently these would be `@nikhilvasaikar`, `@wolframite`, `@hadimansuri` and `@fdiazarce`_)
+Ask the Hiring Manager if you did not get them yet. (_Currently these would be `@nikhilvasaikar`, `@wolframite` and `@hadimansuri`_)
 
 > Please grant "Admin" access to these users since they might need to grant access to some other colleagues in turn.
 
