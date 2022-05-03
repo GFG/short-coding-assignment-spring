@@ -27,6 +27,7 @@ The following business logic should be implemented:
 5. The new business logic should be covered with tests.
 </pre>
 
+> The solution should be reliable, for each successful update the recipients should be notified; If an update fails, no email should be sent.
 > There is no need to send a REAL email. Simply print the body of the email in the logs.
 
 This completes the assignment. 
