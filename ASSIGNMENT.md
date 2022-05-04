@@ -28,7 +28,7 @@ The following business logic should be implemented:
 </pre>
 
 > The solution should be reliable, for each successful update the recipients should be notified; If an update fails, no email should be sent.
-> There is no need to send a REAL email. Simply print the body of the email in the logs.
+> There is no need to send a REAL email. Simply call `com.gfgtech.email.EmailSender.sendMail()` method.
 
 This completes the assignment. 
 
