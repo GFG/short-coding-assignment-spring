@@ -1,6 +1,8 @@
 package com.gfgtech.email;
 
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.context.annotation.Bean;
+import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -11,6 +13,7 @@ import java.util.Set;
  * Helper class for sending email
  */
 @Slf4j
+@Component
 public class EmailSender {
 
     /**
